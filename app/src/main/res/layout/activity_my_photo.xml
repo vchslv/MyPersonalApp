@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyData">
+    tools:context=".MyPhoto">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="187dp"
-        android:layout_height="59dp"
+        android:id="@+id/textView2"
+        android:layout_width="225dp"
+        android:layout_height="56dp"
         android:layout_marginTop="16dp"
-        android:text="@string/button_show"
+        android:text="@string/button_my_photo"
         android:textAlignment="center"
-        android:textAllCaps="false"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

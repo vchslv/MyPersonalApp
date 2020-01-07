@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intentMyData = new Intent(this, MyData.class);
         startActivity(intentMyData);
     }
+
+    public void showMyPhoto(View view) {
+        Intent intentMyPhoto = new Intent(this, MyPhoto.class);
+        startActivity(intentMyPhoto);
+    }
 }
