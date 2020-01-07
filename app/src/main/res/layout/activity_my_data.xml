@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MyData">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="187dp"
+        android:layout_height="59dp"
+        android:text="Мои данные"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="52dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

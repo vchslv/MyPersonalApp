@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void showMyData(View view) {
         Intent intentMyData = new Intent(this, MyData.class);
-        // Haw handle a button click?
-
         startActivity(intentMyData);
     }
 }
